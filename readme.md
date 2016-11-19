@@ -1,12 +1,12 @@
-# mozjpeg-bin [![Build Status](https://travis-ci.org/imagemin/mozjpeg-bin.svg?branch=master)](http://travis-ci.org/imagemin/mozjpeg-bin)
+# jdf-jpg
 
-> mozjpeg is a production-quality JPEG encoder that improves compression while maintaining compatibility with the vast majority of deployed decoders
+> A mozjpeg wrapper for JDF
 
 
 ## Install
 
 ```
-$ npm install --save mozjpeg
+$ npm install --save jdf-jpg
 ```
 
 
@@ -14,7 +14,7 @@ $ npm install --save mozjpeg
 
 ```js
 const {execFile} = require('child_process');
-const mozjpeg = require('mozjpeg');
+const mozjpeg = require('jdf-jpg');
 
 execFile(mozjpeg, ['-outfile', 'output.jpg', 'input.jpg'], err => {
 	console.log('Image minified!');
@@ -25,14 +25,10 @@ execFile(mozjpeg, ['-outfile', 'output.jpg', 'input.jpg'], err => {
 ## CLI
 
 ```
-$ npm install --global mozjpeg
+$ npm install --global jdf-jpg
 ```
 
 ```
-$ mozjpeg --help
+$ jdf-jpg --help
 ```
-
-
-## License
-
-MIT © [imagemin](https://github.com/imagemin)
+ 
