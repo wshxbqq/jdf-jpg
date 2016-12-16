@@ -1,6 +1,6 @@
 {
   "name": "jdf-jpg",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A mozjpeg wrapper for JDF",
   "license": "MIT",
   "repository": "jdf2e/jdf-jpg",
